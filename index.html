@@ -27,8 +27,8 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             <div id="input">
-                <i class="location-dot"></i>
-                <form method="post" action="">
+                <i id="location-dot"></i>
+                <form method="post" action="#">
                     <p><input type="text" name="city" placeholder="Marseille, France"/></p>
                 </form>
                 <input type="submit" value="Rechercher"/>
@@ -36,28 +36,28 @@
             <div id="filters">
                 <p>Filtres</p>
                 <ul>
-                    <li><i class="money-bill-wave-solid"></i>Economique</li>
-                    <li><i class="child-solid"></i>Familial</li>
-                    <li><i class="heart-solid"></i>Romantique</li>
-                    <li><i class="dog-solid"></i>Animaux autorisés</li>
+                    <li><i id="money-bill-wave-solid"></i>Economique</li>
+                    <li><i id="child-solid"></i>Familial</li>
+                    <li><i id="heart-solid"></i>Romantique</li>
+                    <li><i id="dog-solid"></i>Animaux autorisés</li>
                 </ul>
             </div>
-            <p><i class="info-solid"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p><i id="info-solid"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
 
-        <section id="lodging">
-            <article id="lodging cards">
+        <div id="lodging">
+            <section id="lodging-cards">
                 <h2>Hébergements à Marseille</h2>
                 <figure>
                     <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo d'une chambre">
                     <figcaption>Auberge La Cannebière</figcaption>
                     <p>Nuit à partir de 25€</p>
                     <div class="ratings">
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="unticked star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="unticked-star"></i>
                     </div>
                 </figure>
                 <figure>
@@ -65,11 +65,11 @@
                     <figcaption>Hôtel du port</figcaption>
                     <p>Nuit à partir de 52€</p>
                     <div class="ratings">
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
                     </div>
                 </figure>
                 <figure>
@@ -77,11 +77,11 @@
                     <figcaption>Hôtel Les mouettes</figcaption>
                     <p>Nuit à partir de 76€</p>
                     <div class="ratings">
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="unticked star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="unticked-star"></i>
                     </div>
                 </figure>
                 <figure>
@@ -89,11 +89,11 @@
                     <figcaption>Hôtel de la mer</figcaption>
                     <p>Nuit à partir de 46€</p>
                     <div class="ratings">
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="unticked star"></i>
-                        <i class="unticked star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="unticked-star"></i>
+                        <i class="unticked-star"></i>
                     </div>
                 </figure>
                 <figure>
@@ -101,11 +101,11 @@
                     <figcaption>Auberge Le Panier</figcaption>
                     <p>Nuit à partir de 23€</p>
                     <div class="ratings">
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="unticked star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="unticked-star"></i>
                     </div>
                 </figure>
                 <figure>
@@ -113,17 +113,17 @@
                     <figcaption>Hôtel chez Amina</figcaption>
                     <p>Nuit à partir de 96€</p>
                     <div class="ratings">
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
                     </div>
                 </figure>
                 <p>Afficher plus</p>
-            </article>
+            </section>
 
-            <aside id="popular cards">
+            <section id="popular-cards">
                 <h2>Les plus populaires</h2>
                 <i class="charte-de-croissance2"></i>
                 <figure>
@@ -131,11 +131,11 @@
                     <figcaption>Hôtel Le soleil du matin</figcaption>
                     <p>Nuit à partir de 128€</p>
                     <div class="ratings">
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
                     </div>
                 </figure>
                 <figure>
@@ -144,11 +144,11 @@
                     <figcaption>Chambres d'hôtes</figcaption>
                     <p>Nuit à partir de 71€</p>
                     <div class="ratings">
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="unticked star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="unticked-star"></i>
                     </div>
                 </figure>
                 <figure>
@@ -156,19 +156,19 @@
                     <figcaption>Hôtel Tout bleu et Blanc</figcaption>
                     <p>Nuit à partir de 68€</p>
                     <div class="ratings">
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="ticked star"></i>
-                        <i class="unticked star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="ticked-star"></i>
+                        <i class="unticked-star"></i>
                     </div>
                 </figure>
-            </aside>
+            </section>
         </section>
 
         <section id="activities">
             <h2>Activités à Marseille</h2>
-            <div id="activity cards">
+            <div id="activity-cards">
                 <figure>
                     <img src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photo du vieux port">
                     <figcaption>Vieux Port</figcaption>
@@ -198,8 +198,8 @@
     </main>
 
     <footer>
-        <div id="about">
-            <h3>A propos</h3>
+        <div class="footer-lists">
+            <h2>A propos</h2>
             <ul>
                 <li>Fonctionnement du site</li>
                 <li>Conditions générales de vente</li>
@@ -207,16 +207,16 @@
             </ul>
         </div>
 
-        <div id="our accommodations">
-            <h3>Nos hébergements</h3>
+        <div class="footer-lists">
+            <h2>Nos hébergements</h2>
             <ul>
                 <li>Charte qualité</li>
                 <li>Soumettre votre hôtel</li>
             </ul>
         </div>
 
-        <div id="help">
-            <h3>Assistance</h3>
+        <div class="footer-lists">
+            <h2>Assistance</h2>
             <ul>
                 <li>Centre d'aide</li>
                 <li>Nous contacter</li>
