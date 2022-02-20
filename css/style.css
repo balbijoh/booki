@@ -8,3 +8,48 @@
    font-family: 'Raleway', sans-serif;
 }
 
+
+/* --- Header --- */
+
+header {
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 40px 50px 40px;
+}
+
+#logo {
+   padding: 50px 10px 0 10px;
+   width: 120px;
+   height: 60px;
+}
+
+header ul {
+   list-style-type: none;
+   display: flex;
+}
+
+header li {
+   text-decoration: none;
+   padding: 50px 20px 10px 20px;
+}
+
+header a {
+   text-decoration: none;
+   color: black;   
+}
+
+header li:hover {
+   border-top: solid 3px #0065FF;
+   padding: 47px 20px 10px 20px;
+}
+
+header a:hover {
+   color: #0065FF;
+}
+
+
+/* --- Main ---*/
+
+main img {
+   width: 150px;
+}
