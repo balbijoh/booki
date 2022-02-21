@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/eb98eaadf6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,22 +28,24 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             <div id="input">
-                <i id="location-dot"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
                 <form method="post" action="#">
-                    <p><input type="text" name="city" placeholder="Marseille, France"/></p>
+                    <p><input id="search-area" type="text" name="city" placeholder="Marseille, France"/></p>
                 </form>
-                <input type="submit" value="Rechercher"/>
+                <input id="search-button" type="submit" value="Rechercher"/>
             </div>
             <div id="filters">
                 <p>Filtres</p>
                 <ul>
-                    <li><i id="money-bill-wave-solid"></i>Economique</li>
-                    <li><i id="child-solid"></i>Familial</li>
-                    <li><i id="heart-solid"></i>Romantique</li>
-                    <li><i id="dog-solid"></i>Animaux autorisés</li>
+                    <li><i class="fa-solid fa-money-bill-wave"></i>Économique</li>
+                    <li><i class="fa-solid fa-child"></i>Familial</li>
+                    <li><i class="fa-solid fa-heart"></i>Romantique</li>
+                    <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
                 </ul>
             </div>
-            <p><i id="info-solid"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            <div id="info">
+                <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
         </section>
 
         <div id="lodging">

@@ -9,12 +9,12 @@
 }
 
 
-/* --- Header --- */
+/* ---------------- Header ---------------- */
 
 header {
    display: flex;
    justify-content: space-between;
-   margin: 0px 40px 50px 40px;
+   margin: 0px 50px 50px 50px;
 }
 
 #logo {
@@ -35,7 +35,7 @@ header li {
 
 header a {
    text-decoration: none;
-   color: black;   
+   color: black;
 }
 
 header li:hover {
@@ -48,8 +48,99 @@ header a:hover {
 }
 
 
-/* --- Main ---*/
+/* ---------------- Main ---------------- */
 
 main img {
    width: 150px;
+}
+
+main {
+   margin: 0px 50px 0px 50px;
+}
+
+
+/* ---------------- Section recherche ---------------- */
+
+#search h1 {
+   font-size: 24px;
+}
+
+#search p {
+   font-size: 16px;
+}
+
+
+/* Barre de recherche */
+
+#input {
+   display: flex;
+   height: 45px;
+   align-items: center;
+   margin: 15px 0;
+}
+
+#input svg {
+   width: 12px;
+   padding: 15px 15px 15px 18px;
+   background-color: #F2F2F2;
+   border-radius: 15px 0 0 15px;
+}
+
+#search-area {
+   width: 230px;
+   height: 42px;
+   border: solid 1px #F2F2F2;
+}
+
+#search-button {
+   height: 46px;
+   width: 120px;
+   background-color:#0065FF;
+   color: white;
+   font-weight: 600;
+   border-radius: 0 15px 15px 0;
+   border: solid 1px #0065FF;
+}
+
+
+/* Filtres */
+
+#filters {
+   display: flex;
+   align-items: center;
+   font-weight: 700;
+}
+
+#filters ul {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   max-width: 900px;
+   list-style-type: none;
+}
+
+#filters li {
+   border: solid 2px #e4e4e4;
+   border-radius: 25px;
+   padding: 0 15px 0 0;
+}
+
+#filters i {
+   color: #0065FF;
+   background-color: #DEEBFF;
+   padding: 15px;
+   margin: 0 15px 0 0;
+   border-radius: 30px;
+}
+
+/* Point info */
+
+#info i {
+   color: #0065FF;
+   font-size: 11px;
+   font-weight: bold;
+   padding: 3px 7px;
+   margin: 0 10px 0 0;
+   border: solid 2px #F2F2F2;
+   border-radius: 50px;
 }
