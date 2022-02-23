@@ -26,6 +26,7 @@ header {
 header ul {
    list-style-type: none;
    display: flex;
+   margin: 0;
 }
 
 header li {
@@ -79,7 +80,7 @@ main {
    margin: 15px 0;
 }
 
-#input svg {
+#input i {
    width: 12px;
    padding: 15px 15px 15px 18px;
    background-color: #F2F2F2;
@@ -88,8 +89,13 @@ main {
 
 #search-area {
    width: 230px;
-   height: 42px;
+   height: 44px;
    border: solid 1px #F2F2F2;
+}
+
+input {
+   font-weight: 700;
+   padding: 0 0 0 20px;
 }
 
 #search-button {
@@ -100,6 +106,7 @@ main {
    font-weight: 600;
    border-radius: 0 15px 15px 0;
    border: solid 1px #0065FF;
+   padding: 0 15px;
 }
 
 
@@ -120,17 +127,24 @@ main {
 }
 
 #filters li {
-   border: solid 2px #e4e4e4;
-   border-radius: 25px;
-   padding: 0 15px 0 0;
+   border: solid 2px #E4E4E4;
+   border-radius: 28px;
+   padding: 2px 20px 2px 8px;
 }
 
 #filters i {
    color: #0065FF;
    background-color: #DEEBFF;
-   padding: 15px;
-   margin: 0 15px 0 0;
+   width: 48px;
+   height: 30px;
+   font-size: 17px;
+   transform: scale(1, 1.2);
+   text-align: center;
+   vertical-align: middle;
+   padding: 11px 0 0 0;
    border-radius: 30px;
+   position: relative;
+   left: -10px;
 }
 
 /* Point info */
@@ -140,7 +154,11 @@ main {
    font-size: 11px;
    font-weight: bold;
    padding: 3px 7px;
-   margin: 0 10px 0 0;
-   border: solid 2px #F2F2F2;
+   margin: 0 10px 30px 0;
+   border: solid 2px #E4E4E4;
    border-radius: 50px;
 }
+
+
+/* ---------------- Section hébergement ---------------- */
+
