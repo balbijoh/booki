@@ -345,7 +345,7 @@ strong {
 #activities {
    width: 100%;
    max-width: 2400px;
-   margin: 20px 0;
+   margin: 20px 0 50px 0;
 }
 
 #activities h2 {
@@ -483,3 +483,32 @@ strong {
 
 
 /* ---------------- Footer ---------------- */
+
+footer {
+   background-color: #F2F2F2;
+}
+
+#global-footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   max-width: 1400px;
+}
+
+footer h2 {
+   font-size: 16px;
+}
+
+footer ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+footer li {
+   text-align: left;
+   margin: 0 0 10px 0;
+}
+
+.footer-lists {
+   margin: 40px 5% 40px 40px;
+}
