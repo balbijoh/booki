@@ -64,6 +64,7 @@ main {
 
 h2 {
    margin: 0 0 10px 0;
+   font-size: 24px;
 }
 
 
@@ -165,10 +166,16 @@ input {
    color: black;
 }
 
+#filters li:hover {
+   border: solid 2px #DEEBFF;
+}
+
 #filters a:hover {
    box-shadow:0 0 5px 0 #0065FF;
+   background-color: #DEEBFF;
    border-radius: 28px;
 }
+
 
 /* Point info */
 
@@ -188,6 +195,7 @@ input {
 #lodging {
    display: flex;
    justify-content: space-between;
+   max-width: 2400px;
 }
 
 strong {
@@ -224,13 +232,19 @@ strong {
    flex-wrap: wrap;
 }
 
+#lodging-cards a {
+   width: 30%;
+   max-width: 420px;
+   height: 200px;
+   margin: 10px 0;
+}
+
 #lodging-panel figure {
    background-color: white;
    margin: 10px 0;
    padding: 4px;
    text-align: center;
-   width: 30%;
-   max-width: 420px;
+   width: 100%;
    height: 200px;
    border-radius: 20px;
    box-shadow: 0 0 5px 0 #E4E4E4;
@@ -275,6 +289,13 @@ strong {
 
 
 /* ---------------- Section populaires ---------------- */
+
+#popular-panel .fa-chart-line {
+   font-size: 20px;
+   text-align: right;
+   position: relative;
+   bottom: 36px;
+}
 
 /* Cartes populaires */
 
