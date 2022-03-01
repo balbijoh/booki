@@ -13,7 +13,7 @@ a {
    color: black;
 }
 
-/* ---------------- Header ---------------- */
+/* ---------------- Header ---------------------------------------- */
 
 header {
    display: flex;
@@ -53,7 +53,10 @@ header a:hover {
 }
 
 
-/* ---------------- Main ---------------- */
+
+
+
+/* ---------------- Main --------------------------------------- */
 
 main {
    margin: 0px 50px 0px 50px;
@@ -67,8 +70,18 @@ h2 {
    font-size: 24px;
 }
 
+@media all and (max-width: 768px) {
+   * {
+   }
+}
 
-/* ---------------- Section recherche ---------------- */
+@media all and (min-width: 992px) {
+   * {
+   }
+}
+
+
+/* ---------------- Section recherche -------------------------------- */
 
 #search h1 {
    font-size: 24px;
@@ -145,7 +158,7 @@ input {
    border: solid 2px #E4E4E4;
    border-radius: 28px;
    padding: 0 10px 0 8px;
-   margin: 10px 0;
+   margin: 10px;
    max-height: 43px;
 }
 
@@ -192,8 +205,22 @@ input {
    border-radius: 50px;
 }
 
+@media all and (min-width: 768px) and (max-width: 992px) {
+   #filters ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      flex-wrap: wrap;
+      width: 100%;
+   }
+}
 
-/* ---------------- Section hébergement ---------------- */
+@media all and (max-width: 768px) {
+
+}
+
+
+/* ---------------- Section hébergement ----------------------------------- */
 
 #lodging {
    display: flex;
@@ -212,6 +239,12 @@ strong {
 
 .unticked-star {
    color: #CFCFCF;
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+   #lodging {
+      flex-direction: column-reverse;
+   }
 }
 
 
@@ -298,8 +331,34 @@ strong {
    margin: 3% 0 5% 0;
 }
 
+@media all and (min-width: 768px) and (max-width: 992px) {
+   #lodging-panel {
+      width: 90%;
+      max-width: none;
+   }
 
-/* ---------------- Section populaires ---------------- */
+   #lodging-cards a {
+      width: 45%;
+      max-width: none;
+   }
+}
+
+@media all and (max-width: 768px) {
+   
+}
+
+
+/* ---------------- Section populaires ----------------------------------- */
+#popular-panel {
+   display: flex;
+   flex-direction: column;
+   width: 25%;
+   max-width: 680px;
+   margin: 0 0 0 20px;
+   background-color: #F2F2F2;
+   border-radius: 20px;
+   padding: 40px;
+}
 
 #popular-panel h2 {
    display: flex;
@@ -313,18 +372,8 @@ strong {
    margin-left: 10px;
 }
 
-/* Cartes populaires */
 
-#popular-panel {
-   display: flex;
-   flex-direction: column;
-   width: 25%;
-   max-width: 680px;
-   margin: 0 0 0 20px;
-   background-color: #F2F2F2;
-   border-radius: 20px;
-   padding: 40px 40px 0 40px;
-}
+/* Cartes populaires */
 
 #popular-panel figure {
    display: flex;
@@ -377,8 +426,24 @@ strong {
    padding: 2px 0;
 }
 
+@media all and (min-width: 768px) and (max-width: 992px) {
+   #popular-panel {
+      width: 90%;
+      max-width: none;
+      margin: 0 0 10px 0;
+   }
 
-/* ---------------- Section activités ---------------- */
+   #popular-panel figure, #popular-panel a {
+      max-width: 700px;
+   }
+}
+
+@media all and (max-width: 768px) {
+   
+}
+
+
+/* ---------------- Section activités --------------------------------------- */
 
 #activities {
    width: 100%;
@@ -424,6 +489,21 @@ strong {
    font-weight: 700;
 }
 
+@media all and (min-width: 768px) and (max-width: 992px) {
+   #activity-cards {
+      flex-direction: column;
+      max-height: none;
+   }
+
+   #activity-cards figure {
+      height: 300px;
+   }
+}
+
+@media all and (max-width: 768px) {
+   
+}
+
 
 /* Colonne 1 */
 
@@ -438,6 +518,26 @@ strong {
 
 #activity-first-column img {
    height: 449px;
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+   #activity-first-column {
+      width: 100%;
+      max-width: none;
+      margin: 10px 0;
+   }
+
+   #activity-first-column figure {
+      height: 300px;
+   }
+
+   #activity-first-column img {
+      height: 250px;
+   }
+}
+
+@media all and (max-width: 768px) {
+   
 }
 
 
@@ -475,6 +575,33 @@ strong {
    height: 124px;
 }
 
+@media all and (min-width: 768px) and (max-width: 992px) {
+   #activity-second-column {
+      flex-direction: row;
+      width: 100%;
+      max-width: none;
+      justify-content: space-between;
+   }
+
+   #activity-second-column a:first-child {
+      width: 34%;
+      height: 300px;
+   }
+
+   #activity-second-column a:last-child {
+      width: 64%;
+      height: 300px;
+   }
+
+   #pomegues img, #frioul img {
+      height: 250px;
+   }
+}
+
+@media all and (max-width: 768px) {
+   
+}
+
 
 /* Colonne 3 */
 
@@ -489,6 +616,26 @@ strong {
 
 #activity-third-column img {
    height: 449px;
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+   #activity-third-column {
+      width: 100%;
+      max-width: none;
+      margin: 10px 0;
+   }
+
+   #activity-third-column figure {
+      height: 300px;
+   }
+
+   #activity-third-column img {
+      height: 250px;
+   }
+}
+
+@media all and (max-width: 768px) {
+   
 }
 
 
@@ -527,8 +674,35 @@ strong {
    height: 223px;
 }
 
+@media all and (min-width: 768px) and (max-width: 992px) {
+   #activity-fourth-column {
+      flex-direction: row;
+      width: 100%;
+      max-width: none;
+      justify-content: space-between;
+   }
 
-/* ---------------- Footer ---------------- */
+   #activity-fourth-column a:first-child {
+      width: 64%;
+      height: 300px;
+   }
+
+   #activity-fourth-column a:last-child {
+      width: 34%;
+      height: 300px;
+   }
+
+   #garde img, #longchamp img {
+      height: 250px;
+   }
+}
+
+@media all and (max-width: 768px) {
+   
+}
+
+
+/* ---------------- Footer ------------------------------------------ */
 
 footer {
    background-color: #F2F2F2;
@@ -557,4 +731,8 @@ footer li {
 
 .footer-lists {
    margin: 40px 5% 40px 40px;
+}
+
+@media all and (max-width: 768px) {
+   
 }
