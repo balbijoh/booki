@@ -468,7 +468,7 @@ strong {
    }
 
    #lodging-panel div + p {
-      margin-top: 30px;
+      margin: 30px 0 30px 3%;
    }
 }
 
@@ -570,16 +570,26 @@ strong {
       padding: 20px 0;
       width: 100%;
       border-radius: 0;
+      align-items: center;
    }
 
    #popular-panel h2 {
       margin: 10px 20px;
+      align-self: flex-start;
+      width: 90%;
    }
 
    #popular-panel a {
       margin: 0 3%;
       width: 90%;
+      max-width: 480px;
    }
+
+   #popular-panel figure {
+      padding: 4px 0 4px 4px;
+      width: 99%;
+   }
+
 }
 
 
@@ -646,7 +656,7 @@ strong {
    }
 
    #activity-cards {
-      margin: 10px;
+      margin: 10px 5%;
       align-items: center;
    }
 }
