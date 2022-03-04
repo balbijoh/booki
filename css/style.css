@@ -1,3 +1,24 @@
+/* -------------- Plan ------------------- 
+   Header
+   Main
+      Titres sections
+   Section recherche
+      Barre de recherche
+      Filtres
+      Point info
+   Section hébergement
+      Cartes hébergement
+      Afficher plus
+   Section populaires
+      Cartes populaires
+   Section activités
+      Colonne 1
+      Colonne 2
+      Colonne 3
+      Colonne 4
+   Footer
+---------------------------------------- */
+
 .box {
     box-sizing: border-box; /* Opera/IE 8+ */
     -moz-box-sizing: border-box; /* Firefox, autres Gecko */
@@ -463,7 +484,7 @@ strong {
    }
 
    #lodging-cards figure {
-      width: 100;
+      width: 100%;
       padding: 0;
    }
 
