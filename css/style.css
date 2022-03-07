@@ -413,7 +413,7 @@ strong {
    margin: 10px 0;
    padding: 4px;
    text-align: center;
-   width: 100%;
+   width: 98%;
    height: 200px;
    border-radius: 20px;
    box-shadow: 0 0 5px 0 #E4E4E4;
@@ -455,6 +455,11 @@ strong {
    padding: 1% 10px;
 }
 
+#lodging-cards figure:hover {
+   box-shadow: 0 0 5px 0 #0065FF;
+   transform: scale(1.1);
+   transition-duration: 0.2s;
+}
 
 /* Afficher plus */
 
@@ -528,7 +533,7 @@ strong {
    background-color: white;
    margin: 10px 0;
    padding: 4px;
-   width: 100%;
+   width: 98%;
    max-width: 530px;
    height: 200px;
    max-height: 135.55px;
@@ -573,6 +578,12 @@ strong {
    padding: 2px 0;
 }
 
+#popular-panel figure:hover {
+   box-shadow: 0 0 5px 0 #0065FF;
+   transform: scale(1.1);
+   transition-duration: 0.2s;
+}
+
 @media all and (max-width: 992px) {
    #popular-panel {
       width: 90%;
@@ -582,6 +593,11 @@ strong {
 
    #popular-panel figure, #popular-panel a {
       max-width: 700px;
+   }
+
+   #popular-panel figure:hover {
+      width: 100%;
+      right: 0;
    }
 }
 
@@ -658,6 +674,12 @@ strong {
    padding: 10px 15px;
    font-size: 14px;
    font-weight: 700;
+}
+
+#activity-cards figure:hover {
+   box-shadow: 0 0 5px 0 #0065FF;
+   transform: scale(1.1);
+   transition-duration: 0.2s;
 }
 
 @media all and (max-width: 992px) {
