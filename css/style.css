@@ -167,10 +167,15 @@ form {
 #search-button-area {
       height: 46px;
       width: 46px;
+      background-color: #F2F2F2;
       border-radius: 15px 0 0 15px;
       border: none;
       font-size: 16px;
       cursor: pointer;
+}
+
+#search-button-area:hover {
+   background-color: #E4E4E4;
 }
 
 #search-area {
@@ -274,6 +279,7 @@ input {
 
 #filters li:hover {
    border: solid 2px #DEEBFF;
+   border-left: none;
    box-shadow: 0 0 10px 0 #0065FF;
    background-color: #DEEBFF;
    transform: scale(1.05);
@@ -299,7 +305,7 @@ input {
    bottom: 2px;
 }
 
-@media all  and (max-width: 992px) {
+@media all and (max-width: 992px) {
    #filters ul {
       flex-direction: row;
       flex-wrap: wrap;
@@ -363,7 +369,7 @@ input {
    padding: 40px 40px 0 40px;
 }
 
-strong {
+span {
    text-decoration: none;
    font-weight: 700;
 }
@@ -427,6 +433,7 @@ strong {
    padding: 4px;
    text-align: center;
    width: 98%;
+   min-width: 148px;
    height: 200px;
    border-radius: 20px;
    box-shadow: 0 0 5px 0 #E4E4E4;
