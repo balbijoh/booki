@@ -36,6 +36,7 @@ a {
 
 body {
    min-width: 320px;
+   max-width: 2400px;
 }
 
 
@@ -355,7 +356,6 @@ input {
 #lodging {
    display: flex;
    justify-content: space-between;
-   max-width: 2400px;
 }
 
 #lodging-panel {
@@ -657,7 +657,6 @@ span {
 
 #activities {
    width: 100%;
-   max-width: 2400px;
    margin: 20px 0 50px 0;
 }
 
@@ -992,7 +991,8 @@ footer {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   max-width: 1400px;
+   margin: 0 50px;
+   max-width: 1200px;
 }
 
 footer h2 {
@@ -1010,7 +1010,7 @@ footer li {
 }
 
 .footer-lists {
-   margin: 50px;
+   margin: 50px 50px 50px 0;
 }
 
 footer a:hover {
