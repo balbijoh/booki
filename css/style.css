@@ -1024,9 +1024,10 @@ footer a:hover {
 
    #global-footer {
       flex-direction: column;
+      margin: 0;
    }
 
    .footer-lists {
-      margin: 10px 20px;
+      margin: 10px 30px;
    }
 }
