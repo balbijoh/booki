@@ -7,3 +7,6 @@ Vous avez trouvé votre premier stage en tant que développeur web chez Booki, u
 ## Objectifs
 Implémenter une interface responsive <br>
 Intégrer du contenu conformément à une maquette
+
+## Lien vers le projet
+Veuillez cliquer sur le lien suivant pour voir le projet réalisé : https://balbijoh.github.io/booki/
